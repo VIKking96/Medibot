@@ -62,7 +62,7 @@ const userSchema = new mongoose.Schema({
         required: false,
     },
     birthDate: {
-        type: Date,
+        type: String,
         required: true,
     },
     gender: {
