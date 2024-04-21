@@ -13,12 +13,12 @@ const medicalConditionSchema = new mongoose.Schema({
         trim: true
     },
     symptoms: [{
-        type: String,
+        type: [String],
         required: true,
         trim: true
     }],
     treatments: [{
-        type: String,
+        type: [String],
         required: true,
         trim: true
     }]
